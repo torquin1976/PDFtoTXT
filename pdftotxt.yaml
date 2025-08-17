@@ -11,7 +11,7 @@ Resources:
       Description: ''
       MemorySize: 512
       Timeout: 900
-      Role: 'arn:aws:iam::637423409019:role/service-role/Lambda_Role'
+      Role: 'arn:aws:iam::637423409019:role/Lambda_Role'
       Environment:
         Variables:
           TARGET_BUCKET: gl-dest-206020
